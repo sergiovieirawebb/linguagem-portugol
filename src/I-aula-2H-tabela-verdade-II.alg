@@ -14,13 +14,13 @@ inicio
    leia(lado3)
    
    se (lado1 > lado2 + lado3) OU (lado2 > lado1 + lado3) OU (lado3 > lado1 + lado2) entao
-      escreval("Não é um triângulo")
+      escreval("Nï¿½o ï¿½ um triï¿½ngulo")
    senao
       se (lado1 = lado2) E (lado2 = lado3) entao
-         escreval("Equilátero")
+         escreval("Equilatero")
       senao
          se (lado1 = lado2) OU (lado2 = lado3) entao
-            escreval("Isóceles")
+            escreval("Isoceles")
          senao
             escreval("Escaleno")
          fimse

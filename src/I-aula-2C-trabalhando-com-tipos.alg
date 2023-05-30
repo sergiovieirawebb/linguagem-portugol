@@ -6,10 +6,10 @@ var
    divisivel: logico
 
 inicio
-   escreva("Número 1: ")
+   escreva("Nï¿½mero 1: ")
    leia(numero1)
 
-   escreva("Número 2: ")
+   escreva("Nï¿½mero 2: ")
    leia(numero2)
    
    soma <- numero1 + numero2
@@ -24,6 +24,6 @@ inicio
       divisao <- numero1 / numero2
       escreval(numero1, " /", numero2, " =", divisao)
    senao
-      escreval(numero1, " /", numero2, " = não divisível por 0")
+      escreval(numero1, " /", numero2, " = nao divisivel por 0")
    fimse
 fimalgoritmo

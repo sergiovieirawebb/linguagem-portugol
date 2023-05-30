@@ -19,12 +19,12 @@ inicio
    notaDeRecuperacao <- 5
 
    se media >= notaDeAprovacao entao
-      escreval("Passou com a média", media)
+      escreval("Passou com a mï¿½dia", media)
    senao
       se media < notaDeRecuperacao entao
-         escreval("Reprovou com a média", media)
+         escreval("Reprovou com a media", media)
       senao
-         escreval("Está de recuperação com a média", media)
+         escreval("Estï¿½ de recuperacao com a mï¿½dia", media)
       fimse
    fimse
 fimalgoritmo

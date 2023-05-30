@@ -35,11 +35,11 @@ inicio
             leia(poltrona)
 
             se (fila > 5) OU (poltrona > 5) entao
-               escreval("Este assento não existe.")
+               escreval("Este assento nï¿½o existe.")
                escreval("")
             senao
                se cinema[fila, poltrona] = "X" entao
-                  escreval("Poltrona está reservada.")
+                  escreval("Poltrona estï¿½ reservada.")
                   escreval("")
                senao
                   cinema[fila, poltrona] <- "X"
@@ -59,7 +59,7 @@ inicio
             escreval("")
 
          caso "3"
-            escreval("Obriagdo pela visita... :)")
+            escreval("Obriagdo pela visita!")
 
          outrocaso
             escreval("Opcao nao existe.")

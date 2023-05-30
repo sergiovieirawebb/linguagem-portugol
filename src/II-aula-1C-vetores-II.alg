@@ -28,6 +28,6 @@ inicio
    se sucesso = 1 entao
       escreval("Cliente encontrado.")
    senao
-      escreval("Cliente não encontrado.")
+      escreval("Cliente nao encontrado.")
    fimse
 fimalgoritmo

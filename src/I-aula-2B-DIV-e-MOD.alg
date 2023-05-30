@@ -7,15 +7,15 @@ inicio
    x <- 10
    y <- 3
 
-   // (w <- x / y): na divisão, o valor retornado pode ser do tipo real.
-   // DIV retorna o valor inteiro da divisão.
+   // (w <- x / y): na divisï¿½o, o valor retornado pode ser do tipo real.
+   // DIV retorna o valor inteiro da divisï¿½o.
    w <- x DIV y
    escreval(w)
    
-   // (MOD ou %) retorna o resto da divisão.
+   // (MOD ou %) retorna o resto da divisï¿½o.
    se x % 2 = 0  entao
-      escreval("Número é par")
+      escreval("Numero e par")
    senao
-      escreval("Número é ímpar")
+      escreval("Numero e impar")
    fimse
 fimalgoritmo

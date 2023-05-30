@@ -17,8 +17,8 @@ inicio
    notaDeAprovacao <- 7
 
    se media < notaDeAprovacao entao
-      escreval("Está de recuperação!")
+      escreval("Estï¿½ de recuperacao!")
    senao
-      escreval("Está aprovado!")
+      escreval("Estï¿½ aprovado!")
    fimse
 fimalgoritmo

@@ -15,7 +15,6 @@ procedimento lerDados()
       leia(lado3)
 fimprocedimento
 
-
 funcao ehTriangulo(): logico
    inicio
       se(lado1 > lado2 + lado3) OU (lado2 > lado1 + lado3) OU (lado3 > lado1 + lado2) entao
@@ -24,7 +23,6 @@ funcao ehTriangulo(): logico
          retorne verdadeiro
       fimse
 fimfuncao
-
 
 funcao verificarTipoTriangulo(): literal
    inicio
@@ -39,13 +37,12 @@ funcao verificarTipoTriangulo(): literal
       fimse
 fimfuncao
 
-
 inicio
    lerDados()
    
    se ehTriangulo() entao
       escreval(verificarTipoTriangulo())
    senao
-      escreval("Nao é triangulo")
+      escreval("Nao ï¿½ triangulo")
    fimse
 fimalgoritmo

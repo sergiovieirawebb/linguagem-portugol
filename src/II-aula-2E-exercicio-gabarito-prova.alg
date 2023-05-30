@@ -5,7 +5,6 @@ var
    opcaoMenu: literal
    notaFinal: inteiro
 
-
 procedimento mostrarMenu()
    inicio
       escreval("")
@@ -15,7 +14,6 @@ procedimento mostrarMenu()
       escreva("Escolha uma opcao: ")
       leia(opcaoMenu)
 fimprocedimento
-
 
 procedimento cadastrarGabarito()
    var
@@ -31,7 +29,6 @@ procedimento cadastrarGabarito()
       fimpara
       limpatela()
 fimprocedimento
-
 
 funcao cadastrarProva(): inteiro
    var
@@ -53,7 +50,6 @@ funcao cadastrarProva(): inteiro
       retorne nota
 fimfuncao
 
-
 funcao verificarSituacao(nota: inteiro): literal
    inicio
       se nota >= 4 entao
@@ -62,7 +58,6 @@ funcao verificarSituacao(nota: inteiro): literal
          retorne "Aluno reprovado."
       fimse
 fimfuncao
-
 
 inicio
    repita

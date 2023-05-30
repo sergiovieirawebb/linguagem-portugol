@@ -12,15 +12,15 @@ inicio
    contador <- 0
 
    repita
-      escreva("Qual é a senha?: ")
+      escreva("Qual ï¿½ a senha?: ")
       leia(resposta)
    
       contador <- contador + 1
    ate (resposta = senha) OU (contador = 5)
    
    se resposta = senha entao
-      escreval("Parábens! você acertou.")
+      escreval("Parabens! voce acertou.")
    senao
-      escreval("Infelizmente, você ultrapassou 5 tentativas. :(")
+      escreval("Infelizmente, voce ultrapassou 5 tentativas.")
    fimse
 fimalgoritmo

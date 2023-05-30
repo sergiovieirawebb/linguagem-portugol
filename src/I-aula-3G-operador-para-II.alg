@@ -4,7 +4,7 @@ var
    i, decremento, start, end: inteiro
 
 inicio
-   escreva("Começo: ")
+   escreva("Comeco: ")
    leia(start)
    
    escreva("Fim: ")
@@ -25,6 +25,6 @@ inicio
          fimse
       fimpara
    senao
-      escreval("O valor do Fim deve ser menor que o valor do Começo.")
+      escreval("O valor do Fim deve ser menor que o valor do Comeco.")
    fimse
 fimalgoritmo

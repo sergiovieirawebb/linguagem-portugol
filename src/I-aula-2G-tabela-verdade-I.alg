@@ -11,17 +11,17 @@ inicio
    //   nao    E   sim = NAO
    //   nao    E   nao = NAO
    se (i = 10) E (j = 20) entao
-      escreval("Faça algo!")
+      escreval("Faca algo!")
    senao
-      escreval("Não faça algo!")
+      escreval("Nï¿½o faï¿½a algo!")
    fimse
    
    //   sim    OU   sim = SIM
    //   nao    OU   sim = SIM
    //   nao    OU   nao = NAO
    se (i = 10) OU (j = 20) entao
-      escreval("Faça algo!")
+      escreval("Faca algo!")
    senao
-      escreval("Não faça algo!")
+      escreval("Nao faca algo!")
    fimse
 fimalgoritmo

@@ -4,7 +4,6 @@ var
    opcaoMenu: literal
    clientes: vetor[1..5] de literal
 
-
 procedimento mostrarMenu()
    inicio
       escreval("")
@@ -15,7 +14,6 @@ procedimento mostrarMenu()
       escreva("Escolha uma opcao: ")
       leia(opcaoMenu)
 fimprocedimento
-
 
 procedimento cadastrar()
    var
@@ -61,7 +59,6 @@ procedimento pesquisar()
       fimse
 fimprocedimento
 
-
 procedimento excluir()
    var
       indiceExclusao: inteiro
@@ -77,7 +74,6 @@ procedimento excluir()
          escreval("Indice invalido.")
       fimse
 fimprocedimento
-
 
 inicio
    repita
