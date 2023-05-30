@@ -17,8 +17,6 @@ procedimento mostrarMenu()
 fimprocedimento
 
 
-
-
 procedimento cadastrar()
    var
       i: inteiro
@@ -101,6 +99,4 @@ inicio
             fimse
       fimescolha
    ate opcaoMenu = "4"
-
-
 fimalgoritmo
