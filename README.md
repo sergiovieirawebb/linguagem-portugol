@@ -6,7 +6,7 @@
 
 ## Projeto
 
-A lógica de programação e os algoritmos são fundamentais para o desenvolvimento de programas de computador. Sergio estudou e praticou esses conceitos utilizando a linguagem Portugol, que é uma linguagem de programação didática baseada em pseudocódigo.
+A lógica de programação e os algoritmos são fundamentais para o desenvolvimento de programas de computador. Sergio estuda e pratica esses conceitos utilizando a linguagem Portugol, que é uma linguagem de programação didática baseada em pseudocódigo.
 
 ## Licença
 
